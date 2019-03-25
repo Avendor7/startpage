@@ -1,0 +1,37 @@
+
+body {
+    margin: 0;
+  }
+canvas{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.css-container {
+    display: grid;
+    grid-template-areas: 
+      "left   center right"
+      "bottom bottom bottom";
+    
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 1fr 200px;
+    
+    height: 100vh;
+    margin:0;
+    padding: 0;
+  }
+  
+  .leftPanel {
+    background: darkblue;
+    grid-area: left;
+  }
+  
+  .rightPanel {
+    background: darkred;
+    grid-area: right;
+  }
+  
+  .bottomPanel {
+    background: darkgreen;
+    grid-area: bottom
+  }
