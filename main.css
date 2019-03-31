@@ -43,14 +43,16 @@
 
 a {
   background-color: white;
-box-shadow: 0 5px 0 black;
-color: black;
-padding: 1em 1.5em;
-position: relative;
-text-decoration: none;
-text-transform: uppercase;
+  box-shadow: 5px 5px 5px black;
+  color: black;
+  padding: 1.5em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-
+a span{
+  padding:1em;
+}
 a:hover {
 background-color: grey;
 }
@@ -68,4 +70,6 @@ li {
 a img{
   vertical-align: middle;
   height:100%;
+  width: 25px;
+  
 }
