@@ -42,9 +42,9 @@
 }
 
 a {
-  background-color: red;
-box-shadow: 0 5px 0 darkred;
-color: white;
+  background-color: white;
+box-shadow: 0 5px 0 black;
+color: black;
 padding: 1em 1.5em;
 position: relative;
 text-decoration: none;
@@ -52,13 +52,20 @@ text-transform: uppercase;
 }
 
 a:hover {
-background-color: #ce0606;
+background-color: grey;
 }
 
 a:active {
 box-shadow: none;
 top: 5px;
 }
+ul{
+  list-style-type: none;
+}
 li {
   display: inline;
+}
+a img{
+  vertical-align: middle;
+  height:100%;
 }
