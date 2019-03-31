@@ -12,7 +12,7 @@
     <div class="bg-image"></div>
 
     <div  id="app" class="bg-text">
-      <h1>Avendor links</h1>
+      <h1>Press START to Continue</h1>
       <br>
       <ul>
         <li><a href="https://google.ca"><img src="https://google.ca/favicon.ico"><span>Google</span></a></li>
@@ -25,10 +25,11 @@
       </ul>
       <br>
       <ul id="example-1">
-        <li v-for="value in results">
-          <a v-bind:href="value">{{value}}</a>
-        </li>
+        
       </ul>
+      <p>
+        {{results}}
+      </p>
     </div>
     
     
