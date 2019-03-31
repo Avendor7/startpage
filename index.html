@@ -12,7 +12,7 @@
     <div class="bg-image"></div>
 
     <div  id="app" class="bg-text">
-      <h1>Avendor Links</h1>
+      <h1>Avendor links</h1>
       <br>
       <ul>
         <li><a href="https://google.ca"><img src="https://google.ca/favicon.ico"><span>Google</span></a></li>
@@ -23,8 +23,12 @@
         <li><a href="https://twitter.com"><img src="https://twitter.com/favicon.ico"><span>Twitter</span></a></li>
         <li><a href="https://netflix.com"><img src="https://netflix.com/favicon.ico"><span>Netflix</span></a></li>
       </ul>
-      
-      
+      <br>
+      <ul id="example-1">
+        <li v-for="value in results">
+          <a v-bind:href="value">{{value}}</a>
+        </li>
+      </ul>
     </div>
     
     
