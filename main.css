@@ -3,7 +3,6 @@
   font-family: 'Ubuntu', sans-serif;
 
 }
-
 .bg-image {
   /* The image used */
   background-image: url("rpi.jpg");
@@ -46,9 +45,11 @@ a {
   box-shadow: 5px 5px 5px black;
   color: black;
   padding: 1.5em 1.5em;
+  margin: 1em .5em;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
+  display: inline-block;
 }
 a span{
   padding:1em;

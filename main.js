@@ -1,13 +1,15 @@
 new Vue({
-    el: '#app',
+    el: '#addresses',
     data () {
       return {
-        info: null
+        addresses: []
       }
     },
     mounted () {
       axios
-        .get('https://gist.githubusercontent.com/Avendor7/c2ee64a8fdab047766f1a54b9b0ba592/raw/aa43e11241ab8579c8f0ff8bc07c9d2646b68e83/settings.json')
-        .then(response => (this.info = response))
+        .get('https://gist.githubusercontent.com/Avendor7/c2ee64a8fdab047766f1a54b9b0ba592/raw/d95e708e784f3f0495682c4fdd7f9ea28d83a60d/settings.json')
+        .then(response => (this.addresses = response.data.addresses))
     }
   })
+
+  
