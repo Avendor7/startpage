@@ -1,110 +1,112 @@
 {
-    "Youtube": {
-        "url": "https://youtube.com/feed/subscriptions",
-        "isIP": false,
-        "name": "Youtube",
-        "favicon": "https://youtube.com/favicon.ico"
-    },
-    "Twitch": {
-        "url": "https://twitch.tv/directory/following/live",
-        "isIP": false,
-        "name": "Twitch",
-        "favicon": "https://twitch.tv/favicon.ico"
-    },
-    "Reddit": {
-        "url": "https://reddit.com",
-        "name": "Reddit",
-        "isIP": false,
-        "favicon": "https://reddit.com/favicon.ico"
-    },
-    "Facebook": {
-        "url": "https://facebook.com/?sk_h_chr",
-        "name": "Facebook",
-        "isIP": false,
-        "favicon": "https://facebook.com/favicon.ico"
-    },
-    "Twitter": {
-        "url": "https://twitter.com",
-        "name": "Twitter",
-        "isIP": false,
-        "favicon": "https://twitter.com/favicon.ico"
-    },
-    "Gmail": {
-        "url": "https://mail.google.com",
-        "name": "Gmail",
-        "isIP": false,
-        "favicon": "https://mail.google.com/favicon.ico"
-    },
-    "Floatplane": {
-        "url": "https://floatplane.com",
-        "name": "Floatplane",
-        "isIP": false,
-        "favicon": "https://floatplane.com/favicon.ico"
-    },
-    "Drive": {
-        "url": "https://drive.google.com",
-        "name": "Drive",
-        "isIP": false,
-        "favicon": "https://drive.google.com/favicon.ico"
-    },
-    "Netflix": {
-        "url": "https://netflix.com",
-        "name": "Netflix",
-        "isIP": false,
-        "favicon": "https://netflix.com/favicon.ico"
-    },
-    "Patreon": {
-        "url": "https://patreon.com",
-        "name": "Patreon",
-        "isIP": false,
-        "favicon": "https://patreon.com/favicon.ico"
-    },
-    "Amazon": {
-        "url": "https://www.amazon.ca/?ie=UTF8&camp=15121&creative=390961&linkCode=ur2&tag=jayz0a-20",
-        "name": "Amazon",
-        "isIP": false,
-        "favicon": "https://amazon.ca/favicon.ico"
-    },
-    "Play Music": {
-        "url": "https://play.google.com/music/listen",
-        "name": "Google Play Music",
-        "isIP": false,
-        "favicon": "https://play.google.com/music/favicon.ico"
-    },
-    "Github": {
-        "url": "https://github.com/avendor7",
-        "name": "Github",
-        "isIP": false,
-        "favicon": "https://github.com/favicon.ico"
-    },
-    "Thingiverse": {
-        "url": "https://www.thingiverse.com/",
-        "name": "Thingiverse",
-        "isIP": false,
-        "favicon": "https://thingiverse.com/favicon.ico"
-    },
-    "Phoronix": {
-        "url": "https://www.phoronix.com/scan.php?page=home",
-        "name": "Phoronix",
-        "isIP": false,
-        "favicon": "https://phoronix.com/favicon.ico"
-    },
-    "CBC-KW": {
-        "url": "https://www.cbc.ca/news/canada/kitchener-waterloo",
-        "name": "CBC-KW",
-        "isIP": false,
-        "favicon": "https://cbc.ca/favicon.ico"
-    },
-    "Octopi": {
-        "url": "http://192.168.5.222",
-        "name": "Octoprint",
-        "isIP": false,
-        "favicon": "http://192.168.5.222/favicon.ico"
-    },
-    "Valkyrie": {
-        "url": "http://192.168.5.224",
-        "name": "Valkyrie",
-        "isIP": true,
-        "favicon": "http://192.168.5.224/favicon.ico"
-    },
+    "addresses":[
+        {
+            "url": "https://youtube.com/feed/subscriptions",
+            "isIP": false,
+            "name": "Youtube",
+            "favicon": "https://youtube.com/favicon.ico"
+        },
+        {
+            "url": "https://twitch.tv/directory/following/live",
+            "isIP": false,
+            "name": "Twitch",
+            "favicon": "https://twitch.tv/favicon.ico"
+        },
+        {
+            "url": "https://reddit.com",
+            "name": "Reddit",
+            "isIP": false,
+            "favicon": "https://reddit.com/favicon.ico"
+        },
+        {
+            "url": "https://facebook.com/?sk_h_chr",
+            "name": "Facebook",
+            "isIP": false,
+            "favicon": "https://facebook.com/favicon.ico"
+        },
+        {
+            "url": "https://twitter.com",
+            "name": "Twitter",
+            "isIP": false,
+            "favicon": "https://twitter.com/favicon.ico"
+        },
+        {
+            "url": "https://mail.google.com",
+            "name": "Gmail",
+            "isIP": false,
+            "favicon": "https://mail.google.com/favicon.ico"
+        },
+        {
+            "url": "https://floatplane.com",
+            "name": "Floatplane",
+            "isIP": false,
+            "favicon": "https://floatplane.com/favicon.ico"
+        },
+        {
+            "url": "https://drive.google.com",
+            "name": "Drive",
+            "isIP": false,
+            "favicon": "https://drive.google.com/favicon.ico"
+        },
+        {
+            "url": "https://netflix.com",
+            "name": "Netflix",
+            "isIP": false,
+            "favicon": "https://netflix.com/favicon.ico"
+        },
+        {
+            "url": "https://patreon.com",
+            "name": "Patreon",
+            "isIP": false,
+            "favicon": "https://patreon.com/favicon.ico"
+        },
+        {
+            "url": "https://www.amazon.ca/?ie=UTF8&camp=15121&creative=390961&linkCode=ur2&tag=jayz0a-20",
+            "name": "Amazon",
+            "isIP": false,
+            "favicon": "https://amazon.ca/favicon.ico"
+        },
+        {
+            "url": "https://play.google.com/music/listen",
+            "name": "Google Play Music",
+            "isIP": false,
+            "favicon": "https://play.google.com/music/favicon.ico"
+        },
+        {
+            "url": "https://github.com/avendor7",
+            "name": "Github",
+            "isIP": false,
+            "favicon": "https://github.com/favicon.ico"
+        },
+        {
+            "url": "https://www.thingiverse.com/",
+            "name": "Thingiverse",
+            "isIP": false,
+            "favicon": "https://thingiverse.com/favicon.ico"
+        },
+        {
+            "url": "https://www.phoronix.com/scan.php?page=home",
+            "name": "Phoronix",
+            "isIP": false,
+            "favicon": "https://phoronix.com/favicon.ico"
+        },
+        {
+            "url": "https://www.cbc.ca/news/canada/kitchener-waterloo",
+            "name": "CBC-KW",
+            "isIP": false,
+            "favicon": "https://cbc.ca/favicon.ico"
+        },
+        {
+            "url": "http://192.168.5.222",
+            "name": "Octoprint",
+            "isIP": false,
+            "favicon": "http://192.168.5.222/favicon.ico"
+        },
+        {
+            "url": "http://192.168.5.224",
+            "name": "Valkyrie",
+            "isIP": true,
+            "favicon": "http://192.168.5.224/favicon.ico"
+        }
+    ]
 }
