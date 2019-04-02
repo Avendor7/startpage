@@ -40,6 +40,13 @@
   text-align: center;
 }
 
+
+.container{
+  grid-template-columns: [col-1] 25% [col-2] 50%  [col-3] 25%;
+  grid-template-rows: [row-1] 50%;
+}
+
+
 a {
   background-color: white;
   box-shadow: 5px 5px 5px black;
