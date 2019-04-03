@@ -41,10 +41,18 @@
 }
 
 
-.container{
-  grid-template-columns: [col-1] 25% [col-2] 50%  [col-3] 25%;
-  grid-template-rows: [row-1] 50%;
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "left main main right" "left main main right" "left main main right";
 }
+
+.main { grid-area: main; }
+
+.left { grid-area: left; }
+
+.right { grid-area: right; }
 
 
 a {
