@@ -9,27 +9,22 @@
     <title>Hello, world!</title>
   </head>
   <body>
-      <div class="bg-image"></div>
-      <div class="grid-container">
-          <div class="left"></div>
-          <div class="main">
-              <div  id="addresses" >
-                  <h1>Press START to Continue</h1>
-                  <br>
-                  <ul>
-                    <li v-for="value in addresses" :key="value.name">
-                      <a v-bind:href="value.url"><img v-bind:src="value.favicon"><span>{{value.name}}</span></a>
-                    </li>
-                  </ul>
-                  <br>
-                </div>
-          </div>
-          
-          <div class="right"></div>
+    <div class="bg-image"></div>
+    <div class="grid-container">
+        <div class="left"></div>
+        <div class="main">
+            <div id="addresses" class="bg-text">
+                <h1>Press START to Continue</h1>
+                <ul>
+                  <li v-for="value in addresses" :key="value.name">
+                    <a v-bind:href="value.url"><img v-bind:src="value.favicon"><span>{{value.name}}</span></a>
+                  </li>
+                </ul>
+                <br>
+            </div>
         </div>
-    
-
-    
+        <div class="right"></div>
+      </div>
     
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
