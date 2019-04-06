@@ -14,31 +14,50 @@
 
 <body>
   <div class="bg-image"></div>
-    <div class="row">
-      <div class="col-3">
-        <div class="custom-card">
-          <div class="searchbox">
-            <h1>Google Search</h1>
-            <form class="SearchForm" method="get" action="https://google.ca/search" autocomplete="off">
-              <input type="text" name="q" placeholder="Search Google" autofocus />
-            </form>
-          </div>
+  <div class="row">
+    <div class="col-3">
+      <div class="custom-card">
+        <div class="searchbox">
+          <h1>Google Search</h1>
+          <form class="SearchForm" method="get" action="https://google.ca/search" autocomplete="off">
+            <input type="text" name="q" placeholder="Search Google" autofocus />
+          </form>
         </div>
-      </div>
-      <div class="col-6">
-        <div id="addresses" class="custom-card">
-          <h1>Press START to Continue</h1>
-          <ul>
-            <li v-for="value in addresses" :key="value.name">
-              <a v-bind:href="value.url"><img v-bind:src="value.favicon"><span>{{value.name}}</span></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-3">
-          
       </div>
     </div>
+    <div class="col-6">
+      <div id="addresses" class="custom-card">
+        <h1>Press START to Continue</h1>
+        <ul>
+          <li v-for="value in addresses" :key="value.name">
+            <a v-bind:href="value.url"><img v-bind:src="value.favicon"><span>{{value.name}}</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-3">
+        <div class="custom-card">
+          <h1>Youtube Subscriptions</h1>
+          </div>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-3">
+          <div class="custom-card">
+            <h1>Twitter Trending Canada</h1>
+            </div>
+      </div>
+      <div class="col-6">
+          <div class="custom-card">
+            <h1>Weather</h1>
+            </div>
+      </div>
+      <div class="col-3">
+          <div  class="custom-card">
+            <h1>Twitch most recent stream</h1>
+            </div>
+      </div>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="./main.js"></script>
