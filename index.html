@@ -5,33 +5,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <title>Hello, world!</title>
   </head>
   <body>
     <div class="bg-image"></div>
-    <div class="grid-container">
-        <div class="left"></div>
+    <div class="container">
         <div class="main">
-            <div id="addresses" class="bg-text">
-                <h1>Press START to Continue</h1>
-                <ul>
-                  <li v-for="value in addresses" :key="value.name">
-                    <a v-bind:href="value.url"><img v-bind:src="value.favicon"><span>{{value.name}}</span></a>
-                  </li>
-                </ul>
-                <br>
-            </div>
-            <div class="bg-text">
+            <div class="custom-card">
               <div class="searchbox">
                 <form class="SearchForm"  method="get" action="https://google.ca/search" autocomplete="off">
                     <input type="text" name="q" placeholder="Search Google" autofocus />
                 </form>
               </div>
             </div>
-            
+            <div id="addresses" class="custom-card">
+              <h1>Press START to Continue</h1>
+              <ul>
+                <li v-for="value in addresses" :key="value.name">
+                  <a v-bind:href="value.url"><img v-bind:src="value.favicon"><span>{{value.name}}</span></a>
+                </li>
+              </ul>
+              <br>
+            </div>
         </div>
-        <div class="right"></div>
       </div>
     
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
